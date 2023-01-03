@@ -97,7 +97,7 @@ textarea {
 
    body:after {
     content:'';
-    position:absolute;
+    position:fixed;
     right:0;
     width:50%;
     height:100%;
@@ -112,14 +112,17 @@ textarea {
     border-radius:2em;
     position:relative;
     z-index:1;
-    display:grid;
-    gap:5%;
-    --n: 5; /* The maximum number of columns */
-    grid-template-columns: repeat(auto-fill, minmax(max(200px, 100%/var(--n)), 1fr));
+    gap:5%;  
+    --n: 8; /* The maximum number of columns */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(max(100px, 100%/var(--n)), 1fr));
    }
 
    main a {
     background:red;
+    display:flex;
+    align-items:center;
+    justify-content: center;;
    }
 
    main a img {
