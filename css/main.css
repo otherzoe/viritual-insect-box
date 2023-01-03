@@ -89,6 +89,9 @@ textarea {
 
    body {
     background:var(--background);
+    height: 100vh;
+    width:100vw;
+    display:grid;
    }
 
    main {
