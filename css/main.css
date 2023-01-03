@@ -87,6 +87,18 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   body {
+    background:var(--background);
+   }
+
+   main {
+    background:var(--box-background);
+    margin:10%;
+    padding:10%;
+    box-shadow: 0 0 1em rgb(0 0 0 / 20%);
+    border-radius:2em;
+   }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
