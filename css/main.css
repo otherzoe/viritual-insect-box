@@ -89,16 +89,19 @@ textarea {
 
    body {
     background:var(--csm-blue);
-    height: 100vh;
-    width:100vw;
+    height: 100%;
+    width:100%;
     display:grid;
     position:relative;
+    justify-content: center;
+    align-items: center;;
   }
 
    body:after {
     content:'';
     position:fixed;
     right:0;
+    top:0;
     width:50%;
     height:100%;
     background:var(--csm-yellow);
@@ -112,17 +115,17 @@ textarea {
     border-radius:2em;
     position:relative;
     z-index:1;
-    gap:5%;  
     --n: 8; /* The maximum number of columns */
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(max(100px, 100%/var(--n)), 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(max(150px, 100%/var(--n)), 1fr));
    }
 
    main a {
     background:red;
     display:flex;
     align-items:center;
-    justify-content: center;;
+    justify-content: center;
+    margin:10px;
    }
 
    main a img {
