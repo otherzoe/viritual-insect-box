@@ -110,7 +110,7 @@ textarea {
    main {
     background:var(--box-background);
     margin:10%;
-    padding:10%;
+    padding:5%;
     box-shadow: 0 0 1em rgb(0 0 0 / 20%);
     border-radius:2em;
     position:relative;
@@ -121,7 +121,6 @@ textarea {
    }
 
    main a {
-    background:red;
     display:flex;
     align-items:center;
     justify-content: center;
@@ -131,6 +130,12 @@ textarea {
    main a img {
     display:block;
     max-width:100%;
+    filter: drop-shadow(rgba(0, 0, 0, 10%) 0px 3px 2px);
+    transition:.2s;
+   }
+   main a:hover img {
+    filter: drop-shadow(rgba(0, 0, 0, 33%) 0px 3px 2px);
+    transform:translateY(-10px);
    }
 /* ==========================================================================
    Helper classes
