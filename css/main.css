@@ -183,7 +183,6 @@ textarea {
     }
 
     aside section.active {
-      color:red;
       pointer-events: initial;
       opacity:1;
       z-index:2;
@@ -222,17 +221,16 @@ textarea {
       transform:translateX(100%);
       transition:.33s;
     }
-/*
-    aside section .right-animation:after {
+    aside section .left-animation:after {
       content:'';
       position:absolute;
       width:100%;
       height:50%;
-      bottom:0;
+      top:0;
       right:0;
       background:var(--accent-3);
     }
-*/
+
     aside section .insect {
       display:block;
       position:absolute;
@@ -262,6 +260,7 @@ textarea {
       transform-origin: center;
       transition:.25s;
       box-shadow: 0 0 1em rgb(0 0 0 / 20%);
+      display: flex;
     }
 
     aside section.active .info-container {
@@ -279,6 +278,23 @@ textarea {
       background:var(--accent-2);
       top:0;
       left:0;
+    }
+
+    aside section .info-container figure {
+      position:relative;
+      z-index:1;
+      display:inline-flex;
+      flex-flow:row wrap;
+      height:min-content;
+      width:calc(25% - 2em);
+      margin:0;
+      align-items:center;
+      padding:1em;
+      background:var(--box-background);
+    }
+
+    aside section .info-container figure.typed {
+      background:var(--accent-1);
     }
 
 /* ==========================================================================
