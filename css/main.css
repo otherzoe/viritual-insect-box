@@ -176,13 +176,50 @@ textarea {
       height:100%;
       pointer-events:none;
       opacity:0;
+      overflow-x:hidden;
     }
 
     aside section.active {
       color:red;
       pointer-events: initial;
       opacity:1;
+      z-index:2;
     }
+
+    aside section .exit {
+      position:absolute;
+      top:5%;
+      right:5%;
+      z-index:9;
+    }
+
+    aside section .left-animation {
+      position:absolute;
+      left:0;
+      width:50%;
+      height:100%;
+      background:green;
+      transform:translateX(-100%);
+      transition:.33s;
+    }
+
+    aside section.active .left-animation,
+    aside section.active .right-animation {
+      transition:.25s;
+      transform:translateX(0%);
+      transition-delay:.5s;
+    }
+
+    aside section .right-animation {
+      position:absolute;
+      right:0;
+      width:50%;
+      height:100%;
+      background:red;
+      transform:translateX(100%);
+      transition:.33s;
+    }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
