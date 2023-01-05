@@ -87,7 +87,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   @keyframes activeAnimation {
+   @keyframes activeInsect {
     from {
       opacity:1;
       transform:translateY(0);
@@ -150,9 +150,36 @@ textarea {
     cursor:pointer;
    }
 
-   .active {
-    animation: activeAnimation .2s linear forwards;
-    animation-iteration-count: 1;
+   main a.active {
+    animation: activeInsect .2s linear forwards;
+    }
+
+    main a.inactive {
+      animation: activeInsect .2s linear forwards;
+      animation-iteration-count: 1;
+      animation-direction: reverse;
+      }
+
+    aside {
+      position:absolute;
+      width:100%;
+      height:100%;
+      top:0;
+      left:0;
+    }
+
+    aside section {
+      position:absolute;
+      width:100%;
+      height:100%;
+      pointer-events:none;
+      opacity:0;
+    }
+
+    aside section.active {
+      color:red;
+      pointer-events: initial;
+      opacity:1;
     }
 /* ==========================================================================
    Helper classes
