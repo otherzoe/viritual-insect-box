@@ -5,3 +5,9 @@
   --csm-blue:#003767;
   --csm-yellow:#ffd457;
 }
+
+.lepidoptera {
+  --accent-1:green;
+  --accent-2:red;
+  --accent-3:yellow;
+}
