@@ -107,7 +107,6 @@ textarea {
     align-items: center;
     justify-items: center;
   }
-
    body:after {
     content:'';
     position:fixed;
