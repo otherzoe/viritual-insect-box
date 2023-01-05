@@ -124,12 +124,12 @@ textarea {
     max-height: 75%;
     padding:5%;
     box-shadow: 0 0 1em rgb(0 0 0 / 20%);
-    border-radius:2em;
     position:relative;
     z-index:1;
     --n: 8; /* The maximum number of columns */
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(max(150px, 100%/var(--n)), 1fr));
+    border: 20px groove var(--box-border);
    }
 
    main a {
@@ -190,7 +190,7 @@ textarea {
     }
 
     aside section .exit {
-      position:absolute;
+      position:fixed;
       top:5%;
       right:5%;
       z-index:9;
