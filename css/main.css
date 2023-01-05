@@ -104,7 +104,8 @@ textarea {
     width:100%;
     display:grid;
     position:relative;
-    justify-content: center;
+    align-items: center;
+    justify-items: center;
   }
 
    body:after {
@@ -119,7 +120,8 @@ textarea {
 
    main {
     background:var(--box-background);
-    margin:10%;
+    max-width: 75%;
+    max-height: 75%;
     padding:5%;
     box-shadow: 0 0 1em rgb(0 0 0 / 20%);
     border-radius:2em;
