@@ -294,10 +294,7 @@ textarea {
     aside section .info-container figure {
       position:relative;
       z-index:1;
-      display:inline-flex;
-      flex-flow:row wrap;
       margin:0;
-      align-items:center;
       padding:1em;
       background:var(--box-background);
       font-size:0.9em;
