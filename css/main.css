@@ -304,8 +304,10 @@ textarea {
 
     aside section .info-container figure.typed {
       background:var(--accent-1);
+      font-weight:500;
+      color:var(--box-background);
     }
-    
+
     aside section .past-info {
       position: absolute;
       padding:1em;
