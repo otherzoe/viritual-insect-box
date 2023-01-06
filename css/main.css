@@ -116,6 +116,7 @@ textarea {
     position:relative;
     align-items: center;
     justify-items: center;
+    font:1em 'Open Sans';
   }
    body:after {
     content:'';
