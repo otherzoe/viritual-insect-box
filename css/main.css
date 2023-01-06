@@ -328,6 +328,16 @@ textarea {
       grid:min-content min-content / 1fr 1fr;
     }
 
+    aside section h1 {
+      position:absolute;
+      bottom:1em;
+      left:1em;
+      margin:0;
+      z-index:1;
+      font:48pt 'Playfair Display';
+      color:var(--box-background);
+    }
+
 
 /* ==========================================================================
    Helper classes
