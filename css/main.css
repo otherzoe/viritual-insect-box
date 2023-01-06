@@ -300,6 +300,7 @@ textarea {
       align-items:center;
       padding:1em;
       background:var(--box-background);
+      font-size:0.9em;
     }
 
     aside section .info-container figure.typed {
