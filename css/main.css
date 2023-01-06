@@ -92,6 +92,11 @@ textarea {
     src: url(../fonts/PlayfairDisplay-Bold.ttf);
   }
 
+  @font-face {
+    font-family: 'Open Sans';
+    src: url(../fonts/OpenSans.ttf);
+  }
+
    @keyframes activeInsect {
     from {
       opacity:1;
