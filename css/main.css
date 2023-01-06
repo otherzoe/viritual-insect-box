@@ -302,14 +302,10 @@ textarea {
       background:var(--box-background);
     }
 
-    aside section .info-container figure.location-date.typed {
+    aside section .info-container figure.typed {
       background:var(--accent-1);
     }
-
-    aside section .info-container figure.insect-id.typed {
-      background:var(--accent-1);
-    }
-
+    
     aside section .past-info {
       position: absolute;
       padding:1em;
