@@ -329,6 +329,7 @@ textarea {
     }
 
     aside section h1 {
+      width:calc(50% - 2em);
       position:absolute;
       bottom:1em;
       left:1em;
