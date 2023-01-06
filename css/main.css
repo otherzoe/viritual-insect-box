@@ -87,6 +87,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   @font-face {
+    font-family: Playfair Display;
+    src: url(../fonts/PlayfairDisplay-Bold.ttf);
+  }
+
    @keyframes activeInsect {
     from {
       opacity:1;
