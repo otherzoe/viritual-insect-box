@@ -213,7 +213,10 @@ textarea {
       transition:.25s;
       border:0;
       box-shadow: rgb(0 0 0 / 20%) 0px 0px 1em;
+      font-size:1em;
+      font-weight:800;
       cursor:pointer;
+      background:var(--box-background);
     }
 
     aside section.active .exit { 
