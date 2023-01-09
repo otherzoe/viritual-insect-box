@@ -227,7 +227,7 @@ textarea {
       left:0;
       width:50%;
       height:100%;
-      background:var(--accent-1);
+      background:var(--accent-3);
       transform:translateX(-100%);
       transition:.33s;
     }
@@ -253,9 +253,9 @@ textarea {
       position:absolute;
       width:100%;
       height:50%;
-      top:0;
+      bottom:0;
       right:0;
-      background:var(--accent-3);
+      background:var(--accent-1);
     }
 
     aside section .insect {
