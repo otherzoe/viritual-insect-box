@@ -213,6 +213,7 @@ textarea {
       transition:.25s;
       border:0;
       box-shadow: rgb(0 0 0 / 20%) 0px 0px 1em;
+<<<<<<< HEAD
       font-size:1em;
       font-weight:800;
       background:var(--box-background);
@@ -224,6 +225,9 @@ textarea {
       background:var(--text-color);
       color:var(--box-background);
       transition:.2s;
+=======
+      cursor:pointer;
+>>>>>>> parent of b470b7a (Update exit button styling)
     }
 
     aside section.active .exit { 
