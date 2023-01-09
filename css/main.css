@@ -248,6 +248,7 @@ textarea {
       transform:translateX(100%);
       transition:.33s;
     }
+
     aside section .left-animation:after {
       content:'';
       position:absolute;
@@ -256,6 +257,14 @@ textarea {
       bottom:0;
       right:0;
       background:var(--accent-1);
+      transform:translateX(-100%);
+      transition:.33s;
+    }
+
+    aside section.active .left-animation:after {
+      transform:translateX(0%);
+      transition:.33s;
+      transition-delay:1.5s;
     }
 
     aside section .insect {
