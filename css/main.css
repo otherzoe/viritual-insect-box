@@ -203,10 +203,16 @@ textarea {
       position:fixed;
       top:5%;
       right:5%;
+      width:2em;
+      height:2em;
+      display:flex;
+      align-items: center;
+      justify-content:center;
       z-index:9;
       opacity:0;
       transition:.25s;
-
+      border:0;
+      box-shadow: rgb(0 0 0 / 20%) 0px 0px 1em;
     }
 
     aside section.active .exit { 
