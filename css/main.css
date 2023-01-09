@@ -204,6 +204,15 @@ textarea {
       top:5%;
       right:5%;
       z-index:9;
+      opacity:0;
+      transition:.25s;
+
+    }
+
+    aside section.active .exit { 
+      opacity:1;
+      transition:.25s;
+      transition-delay:2s;
     }
 
     aside section .left-animation {
