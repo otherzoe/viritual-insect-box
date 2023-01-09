@@ -215,8 +215,15 @@ textarea {
       box-shadow: rgb(0 0 0 / 20%) 0px 0px 1em;
       font-size:1em;
       font-weight:800;
-      cursor:pointer;
       background:var(--box-background);
+      transition:.2s;
+    }
+
+    aside section .exit:hover {
+      cursor:pointer;
+      background:var(--text-color);
+      color:var(--box-background);
+      transition:.2s;
     }
 
     aside section.active .exit { 
