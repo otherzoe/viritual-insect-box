@@ -291,7 +291,7 @@ textarea {
       max-height:75%;
       top:0;
       transition:.25s;
-      transition-delay:1s;
+      transition-delay:.5s;
     }
 
     aside section .info-container {
