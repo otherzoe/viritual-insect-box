@@ -311,7 +311,7 @@ textarea {
       opacity:1;
       transform:scale(1);
       transition:.25s;
-      transition-delay:1.5s;
+      transition-delay:.75s;
     }
 
     aside section.active .info-container:after {
