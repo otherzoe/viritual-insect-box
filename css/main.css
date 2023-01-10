@@ -236,11 +236,12 @@ textarea {
       cursor:pointer;
       color:var(--box-background);
       background:var(--text-color);
+      transition:.25s;
     }
 
     aside section.active .exit { 
       animation: activeExit .25s linear forwards;
-      animation-delay:2s;
+      animation-delay:1.25s;
     }
 
     aside section .left-animation {
