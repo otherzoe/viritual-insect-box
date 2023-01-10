@@ -97,6 +97,11 @@ textarea {
     src: url(../fonts/OpenSans.ttf);
   }
 
+  @font-face {
+    font-family: 'Monsterrat';
+    src: url(../fonts/Montserrat.ttf);
+  }
+
    @keyframes activeInsect {
     from {
       opacity:1;
