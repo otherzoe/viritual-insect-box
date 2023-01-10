@@ -223,8 +223,8 @@ textarea {
       align-items: center;
       justify-content:center;
       z-index:9;
-      opacity:0;
       transition:.25s;
+      opacity:0;
       border:0;
       box-shadow: rgb(0 0 0 / 20%) 0px 0px 1em;
       font-size:1em;
@@ -234,12 +234,13 @@ textarea {
 
     aside section.active .exit:hover {
       cursor:pointer;
+      color:var(--box-background);
+      background:var(--text-color);
     }
 
     aside section.active .exit { 
-      opacity:1;
-      transition:.25s;
-      transition-delay:1.25s;
+      animation: activeExit .25s linear forwards;
+      animation-delay:2s;
     }
 
     aside section .left-animation {
