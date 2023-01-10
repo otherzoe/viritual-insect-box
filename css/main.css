@@ -227,7 +227,7 @@ textarea {
     aside section.active .exit { 
       opacity:1;
       transition:.25s;
-      transition-delay:2s;
+      transition-delay:1.25s;
     }
 
     aside section .left-animation {
@@ -272,7 +272,7 @@ textarea {
     aside section.active .left-animation:after {
       transform:translateX(0%);
       transition:.33s;
-      transition-delay:1.5s;
+      transition-delay:.75s;
     }
 
     aside section .insect {
