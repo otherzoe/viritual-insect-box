@@ -113,6 +113,15 @@ textarea {
     }
   }
 
+  @keyframes activeExit {
+    from {
+      opacity:0;
+    }
+    to {
+      opacity:1;
+    }
+  }
+
    body {
     background:var(--csm-blue);
     height: 100vh;
