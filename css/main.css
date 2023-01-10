@@ -244,7 +244,7 @@ textarea {
     aside section.active .right-animation {
       transition:.25s;
       transform:translateX(0%);
-      transition-delay:.5s;
+      transition-delay:.25s;
     }
 
     aside section .right-animation {
