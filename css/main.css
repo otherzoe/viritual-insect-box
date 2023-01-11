@@ -391,7 +391,11 @@ textarea {
     aside section h1 em {
       display:block;
       font-style:normal;
-      font:400 12pt/100% 'Montserrat';
+      font:900 10pt/100% 'Montserrat';
+      margin-top:1em;
+      opacity:50%;
+      pointer-events:none;
+      user-select: none; 
     }
 
 /* ==========================================================================
