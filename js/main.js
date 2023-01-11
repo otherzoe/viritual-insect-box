@@ -12,6 +12,9 @@ let insectThreeInfo = document.querySelector("#insect-3-info");
 let insectFour = document.querySelector("#insect-4");
 let insectFourInfo = document.querySelector("#insect-4-info");
 
+let insectFive = document.querySelector("#insect-5");
+let insectFiveInfo = document.querySelector("#insect-5-info");
+
 // write generic toggle function ...
 
 let selectInsect = (insect, insectInfo) => {
@@ -35,6 +38,10 @@ insectThree.addEventListener("click", () => {
 
 insectFour.addEventListener("click", () => {
   selectInsect(insectFour, insectFourInfo);
+});
+
+insectFive.addEventListener("click", () => {
+  selectInsect(insectFive, insectFiveInfo);
 });
 
 let exitButton = document.querySelectorAll("button.exit");
