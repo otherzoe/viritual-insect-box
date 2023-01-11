@@ -98,7 +98,7 @@ textarea {
   }
 
   @font-face {
-    font-family: 'Monsterrat';
+    font-family: 'Montserrat';
     src: url(../fonts/Montserrat.ttf);
   }
 
@@ -388,6 +388,11 @@ textarea {
       color:var(--box-background);
     }
 
+    aside section h1 em {
+      display:block;
+      font-style:normal;
+      font:400 12pt/100% 'Montserrat';
+    }
 
 /* ==========================================================================
    Helper classes
